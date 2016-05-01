@@ -6,7 +6,7 @@ var path = require("path");
 
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname + '/templates/test1.html'));
+  res.sendFile(path.join(__dirname + '/templates/test4.html'));
 });
 
 app.use(express.static(path.join(__dirname, 'public')));
